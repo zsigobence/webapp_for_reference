@@ -1,0 +1,87 @@
+.taskManager button{
+    background: linear-gradient(135deg, #ffffff, #bbbbbb);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 5px;
+    font-size:small;
+}
+.taskManager button:hover{
+    background: linear-gradient(135deg, #bbbbbb, #ffffff);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.taskManager button:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: min(90%,600px);
+    margin: auto;
+}
+
+#addButton{
+    margin-top: 30px;
+}
+.inputs button{
+    display: flex;
+    justify-content: center;
+    width: min(220px,90%);
+    margin: auto;
+}
+
+.inputdata{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(400px,95%);
+    margin:auto;
+    padding-block: 20px;
+}
+
+.inputdata input{
+    justify-content: start;
+    width: min(150px,95%);
+}
+
+.inputdata textarea{
+    width: 100%;
+}
+
+ul{
+    margin-inline: 10%;
+    display:grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    list-style-type: none;
+    word-break: break-word;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+li div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.taskButtons{
+    display: flex   ;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
